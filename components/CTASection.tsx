@@ -12,7 +12,7 @@ const CASE_TYPES = [
   "Not sure yet",
 ];
 
-const DETAILS_MAX = 600;
+const DETAILS_MAX = 700;
 
 function isValidContact(value: string) {
   const trimmed = value.trim();
@@ -276,9 +276,7 @@ export default function CTASection() {
             )}
           </AnimatePresence>
 
-          <p className="mt-5 font-mono text-[10px] uppercase tracking-widest2 text-inkmute/70">
-            No fee unless we win
-          </p>
+      
         </Reveal>
       </div>
     </section>

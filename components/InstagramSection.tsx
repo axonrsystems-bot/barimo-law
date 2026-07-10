@@ -31,7 +31,7 @@ const categories = [
   {
     tag: "Behind the scenes",
     label: "Meet the team",
-    image: "/team/barimo-team.jpg",
+    image: "/team/team.jpg",
     icon: (
       <>
         <circle cx="12" cy="8" r="3.4" />

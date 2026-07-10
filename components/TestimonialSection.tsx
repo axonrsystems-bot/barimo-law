@@ -65,18 +65,6 @@ export default function TestimonialSection() {
             </Reveal>
           ))}
         </div>
-
-        <Reveal delay={0.24} className="mt-8">
-          <a
-            href="https://www.instagram.com/barimolaw/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-widest2 text-marigold transition-colors hover:text-paper"
-          >
-            More client stories on Instagram
-            <span aria-hidden="true">→</span>
-          </a>
-        </Reveal>
       </div>
     </section>
   );

@@ -45,7 +45,6 @@ export default function Footer() {
           </p>
           <a href="#team" className="hover:text-paper">Our Team</a>
           <a href="#results" className="hover:text-paper">Results</a>
-          <a href="#follow" className="hover:text-paper">Instagram</a>
           <a href="#contact" className="hover:text-paper">Free Case Review</a>
         </div>
 

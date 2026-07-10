@@ -5,24 +5,8 @@ import { useEffect, useState } from "react";
 const NAV_LINKS = [
   { href: "#team", label: "Our Team" },
   { href: "#results", label: "Results" },
-  { href: "#follow", label: "Instagram" },
   { href: "#contact", label: "Contact" },
 ];
-
-function InstagramGlyph({ className = "" }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className={className}
-      aria-hidden="true"
-    >
-      <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" />
-      <circle cx="12" cy="12" r="4.2" stroke="currentColor" strokeWidth="1.6" />
-      <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" />
-    </svg>
-  );
-}
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);
@@ -55,7 +39,7 @@ export default function NavBar() {
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
-          {NAV_LINKS.filter((l) => l.label !== "Instagram").map((link) => (
+          {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
@@ -64,15 +48,6 @@ export default function NavBar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="https://www.instagram.com/barimolaw/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Barimo Law on Instagram (opens in a new tab)"
-            className="flex items-center text-inkmute transition-colors hover:text-ink"
-          >
-            <InstagramGlyph className="h-[18px] w-[18px]" />
-          </a>
         </nav>
 
         <div className="flex items-center gap-2 md:gap-0">
@@ -129,7 +104,6 @@ export default function NavBar() {
               onClick={() => setOpen(false)}
               className="flex items-center gap-2 rounded-lg px-2 py-3 font-body text-base text-ink transition-colors hover:bg-paper-dim"
             >
-              {link.label === "Instagram" && <InstagramGlyph className="h-4 w-4" />}
               {link.label}
             </a>
           ))}

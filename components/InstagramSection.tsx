@@ -2,14 +2,11 @@ import Reveal from "./Reveal";
 
 const INSTAGRAM_URL = "https://www.instagram.com/barimolaw/";
 
-// Real firm photos already on the site, reused here as Instagram-grid-style
-// tiles. Swap any `image` path for an actual post export whenever you have
-// one — same aspect ratio (square) works best.
 const categories = [
   {
     tag: "Case wins",
     label: "Settlements & verdicts",
-    image: "/team/elise.jpg",
+    image: "/images/recovered.jpg",
     icon: (
       <path d="M12 2.5l2.47 5.02 5.53.8-4 3.9.94 5.5L12 15.1l-4.94 2.6.94-5.5-4-3.9 5.53-.8L12 2.5z" />
     ),
@@ -17,13 +14,13 @@ const categories = [
   {
     tag: "Client stories",
     label: "Real reviews & recaps",
-    image: "/team/ciara.jpg",
+    image: "/images/testimonial.jpg",
     icon: <path d="M4 4h16v11H8l-4 4V4z" />,
   },
   {
     tag: "Know your policy",
     label: "Claims tips & explainers",
-    image: "/team/natalie.png",
+    image: "/images/facts.jpg",
     icon: (
       <>
         <path d="M6 3h9l5 5v13H6V3z" />
@@ -34,7 +31,7 @@ const categories = [
   {
     tag: "Behind the scenes",
     label: "Meet the team",
-    image: "/team/jose.png",
+    image: "/images/barimo-team.jpg",
     icon: (
       <>
         <circle cx="12" cy="8" r="3.4" />

@@ -1,0 +1,30 @@
+{
+  "name": "barimo-law",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.42.2",
+    "next": "^15.5.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "resend": "^6.17.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.2",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.6.3"
+  }
+}

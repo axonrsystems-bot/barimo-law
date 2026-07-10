@@ -1,0 +1,67 @@
+import type { TeamMember } from "@/src/types/team";
+
+// Sourced directly from the client's "Firm Bios.docx" and named headshot
+// files (provided July 2026). All bios and photos are confirmed real.
+
+export const team: TeamMember[] = [
+  {
+    id: "elise-barimo",
+    name: "Elise B. Barimo",
+    role: "Managing Partner & Founder",
+    isAttorney: true,
+    bio: "Elise Barimo is the founder and managing attorney of Barimo Law, P.A., where she represents individuals and families in personal injury and first-party property insurance matters. Since beginning her career representing plaintiffs in 2019, Elise has dedicated her practice to helping clients stand up to insurance companies and other powerful entities when they need an advocate most. She has extensive litigation experience through every stage of a case, including depositions, hearings, mediations, and jury trials.",
+    education: "B.A. Political Science, Honors, University of Central Florida, 2013 · J.D., Florida International University College of Law, 2016",
+    barAdmissions: "Florida (2018), Louisiana, Texas, District of Columbia",
+    languages: "English, Spanish",
+    honor: "Super Lawyers Rising Star every year since 2021 — awarded to only 2.5% of attorneys statewide",
+    isPlaceholder: false,
+    photo: "/team/elise.jpg",
+    photoConfirmed: true,
+  },
+  {
+    id: "ciara-wigley",
+    name: "Ciara M. Wigley",
+    role: "Associate Attorney",
+    isAttorney: true,
+    bio: "Ciara represents Florida homeowners and business owners in disputes against insurance carriers, focusing on first-party property insurance litigation for claims that have been denied, underpaid, delayed, or mishandled. She has handled hundreds of depositions and negotiated settlements across hurricane, wind, water, and other property-related losses, and also represents individuals in personal injury matters.",
+    education: "B.S. Psychology, University of Central Florida, 2018 · J.D., cum laude, Nova Southeastern University, Shepard Broad College of Law, 2022",
+    barAdmissions: "Florida",
+    languages: "English",
+    isPlaceholder: false,
+    photo: "/team/ciara.jpg",
+    photoConfirmed: true,
+  },
+  {
+    id: "natalie-chao",
+    name: "Natalie Chao",
+    role: "Lead Litigation Paralegal",
+    isAttorney: false,
+    bio: "Natalie brings a strong background in first-party property insurance and personal injury matters, guiding clients through the legal process with compassion and clear communication. She works closely with attorneys, clients, and insurers from initial intake through resolution, keeping every case moving forward.",
+    languages: "English, Spanish",
+    isPlaceholder: false,
+    photo: "/team/natalie.png",
+    photoConfirmed: true,
+  },
+  {
+    id: "yamila-bagdadi",
+    name: "Yamila Bagdadi",
+    role: "Discovery & Scheduling Paralegal",
+    isAttorney: false,
+    bio: "Yamila coordinates depositions, mediations, inspections, and independent medical exams while managing discovery across every case. Her attention to detail keeps deadlines on track and clients informed at every stage of litigation.",
+    languages: "English, Spanish",
+    isPlaceholder: false,
+    photo: "/team/yamila.png",
+    photoConfirmed: true,
+  },
+  {
+    id: "jose-yanes",
+    name: "Jose Yanes",
+    role: "Texas Litigation Paralegal",
+    isAttorney: false,
+    bio: "Jose manages U.S.-based litigation and Texas state court pleadings, adapting federal-style documents to Texas procedural rules and coordinating case workflows across attorneys, clients, and experts. His bilingual fluency bridges communication for clients and colleagues alike.",
+    languages: "English, Spanish",
+    isPlaceholder: false,
+    photo: "/team/jose.png",
+    photoConfirmed: true,
+  },
+];

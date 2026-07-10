@@ -59,7 +59,7 @@ export default function TeamCard({
         />
 
         <span className="absolute left-4 top-4 rounded-full border border-paper/25 bg-paper/10 px-3 py-1 font-mono text-[9px] uppercase tracking-widest2 text-paper backdrop-blur-sm">
-          {member.isAttorney ? "Counsel" : "Client Team"}
+          {member.isAttorney ? "Counsel" : "Team"}
         </span>
 
         <div className="absolute inset-x-0 bottom-0 p-5">
